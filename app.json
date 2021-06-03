@@ -1,0 +1,28 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/rewritePluginPage/rewritePluginPage",
+        "pages/originalPluginPage/originalPluginPage",
+        "pages/webviewPage/webviewPage"
+    ],
+    "window": {
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "",
+        "backgroundColor": "#eeeeee",
+        "backgroundTextStyle": "light"
+    },
+    "sitemapLocation": "sitemap.json",
+    "plugins": {
+        "myPlugin": {
+          "version": "1.2.18",
+          "provider": "wx8c631f7e9f2465e1"
+        },
+        "WechatSI": {
+          "version": "0.3.4",
+          "provider": "wx069ba97219f66d99"
+        }
+      },
+    "requiredBackgroundModes": ["audio"]
+}
